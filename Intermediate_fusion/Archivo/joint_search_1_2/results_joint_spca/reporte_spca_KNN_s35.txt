@@ -1,0 +1,7 @@
+MÉTODO: SPCA | MODELO: KNN | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'alpha': 1.0}
+Recon error: 0.038749
+Selector ganador: FromModel_RandomForestClassifier con k=60
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 5, 'model__weights': 'distance', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=35),
+                threshold=-inf), 'selector__max_features': 60}
+Métricas Test: Acc=0.8889, Prec=0.8968, Rec=0.8889, F1=0.8885

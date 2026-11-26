@@ -1,0 +1,20 @@
+MÉTODO: SPCA | MODELO: ElasticNet | SEMILLA: 21
+GANADOR: KBest_f_classif con k=12
+Repr config: {'latent_dim': 8.0, 'alpha': 1.0}
+Recon error: 0.195573
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.65, 'model__loss': 'log_loss', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       1.00      1.00      1.00         6
+         DCL       1.00      1.00      1.00         6
+          EA       1.00      1.00      1.00         6
+
+    accuracy                           1.00        18
+   macro avg       1.00      1.00      1.00        18
+weighted avg       1.00      1.00      1.00        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat7', 'Morfo_lat5', 'Morfo_lat0', 'Meta_lat3', 'DTI_lat0', 'Morfo_lat6', 'Meta_lat6', 'DTI_lat1', 'Morfo_lat2', 'Meta_lat1', 'Morfo_lat4', 'DTI_lat2', 'Morfo_lat7', 'DTI_lat3', 'Meta_lat2', 'DTI_lat6', 'Meta_lat0', 'Morfo_lat1', 'Morfo_lat3', 'Meta_lat5', 'DTI_lat5', 'Meta_lat7', 'Meta_lat4', 'DTI_lat4']

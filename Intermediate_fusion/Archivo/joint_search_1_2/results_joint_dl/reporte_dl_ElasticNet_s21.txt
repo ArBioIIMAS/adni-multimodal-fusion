@@ -1,0 +1,6 @@
+MÉTODO: DL | MODELO: ElasticNet | SEMILLA: 21
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars'}
+Recon error: 0.229039
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.65, 'model__loss': 'perceptron', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.7222, Prec=0.7222, Rec=0.7222, F1=0.7079

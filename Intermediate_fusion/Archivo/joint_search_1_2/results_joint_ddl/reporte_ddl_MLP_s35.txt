@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: MLP | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'l1_lambda': 0.0001}
+Recon error: 0.045363
+Selector ganador: KBest_f_classif con k=36
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.4, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectKBest(), 'selector__k': 36}
+Métricas Test: Acc=0.7222, Prec=0.7079, Rec=0.7222, F1=0.7117

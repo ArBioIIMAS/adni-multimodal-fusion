@@ -1,0 +1,32 @@
+# Autoencoders — Resumen de Resultados
+
+## Configuración
+- Latent dim por modalidad: 32
+- Épocas: 150  |  Batch size: 8
+- Dimensión fusionada: 96 features
+- Train: 42 sujetos  |  Test: 18 sujetos
+- Clases train: {np.int64(0): np.int64(14), np.int64(1): np.int64(14), np.int64(2): np.int64(14)}
+- Clases test:  {np.int64(0): np.int64(6), np.int64(1): np.int64(6), np.int64(2): np.int64(6)}
+- Semillas: [7, 14, 21, 28, 35]
+- k features evaluados: [5, 10, 15]
+
+## Métricas en Test (media ± std sobre 5 semillas)
+
+### SVM
+- Accuracy:  0.9222 ± 0.0444
+- Precision: 0.9295 ± 0.0457
+- Recall:    0.9222 ± 0.0444
+- F1 macro:  0.9217 ± 0.0448
+
+### RandomForest
+- Accuracy:  0.9111 ± 0.0444
+- Precision: 0.9224 ± 0.0444
+- Recall:    0.9111 ± 0.0444
+- F1 macro:  0.9100 ± 0.0450
+
+### KNN
+- Accuracy:  0.9111 ± 0.0272
+- Precision: 0.9143 ± 0.0311
+- Recall:    0.9111 ± 0.0272
+- F1 macro:  0.9110 ± 0.0270
+

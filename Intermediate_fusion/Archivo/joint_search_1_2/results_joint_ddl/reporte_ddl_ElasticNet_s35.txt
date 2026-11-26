@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: ElasticNet | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'l1_lambda': 0.0001}
+Recon error: 0.045363
+Selector ganador: KBest_f_classif con k=48
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.5, 'model__loss': 'perceptron', 'selector': SelectKBest(), 'selector__k': 48}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641

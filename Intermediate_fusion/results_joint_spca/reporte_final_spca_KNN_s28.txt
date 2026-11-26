@@ -1,0 +1,20 @@
+MÉTODO: SPCA | MODELO: KNN | SEMILLA: 28
+GANADOR: KBest_f_classif con k=12
+Repr config: {'latent_dim': 8.0, 'alpha': 0.5}
+Recon error: 0.160904
+Mejores Parámetros: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 7, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.8333, Prec=0.8302, Rec=0.8333, F1=0.8279
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.86      1.00      0.92         6
+         DCL       0.80      0.67      0.73         6
+          EA       0.83      0.83      0.83         6
+
+    accuracy                           0.83        18
+   macro avg       0.83      0.83      0.83        18
+weighted avg       0.83      0.83      0.83        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat0', 'Morfo_lat7', 'Morfo_lat0', 'Meta_lat4', 'Morfo_lat6', 'DTI_lat6', 'Meta_lat3', 'DTI_lat4', 'DTI_lat1', 'Meta_lat1', 'Morfo_lat4', 'Morfo_lat2', 'Morfo_lat3', 'DTI_lat3', 'DTI_lat5', 'Meta_lat0', 'Meta_lat5', 'Morfo_lat1', 'DTI_lat2', 'Meta_lat2', 'DTI_lat7', 'Meta_lat7', 'Morfo_lat5', 'Meta_lat6']

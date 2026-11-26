@@ -1,0 +1,51 @@
+# DL — Resumen Final
+# Evaluación: media ± std sobre 5 semillas
+
+## RF
+- Test_Acc: 0.6556 ± 0.0465
+- Precision: 0.6598 ± 0.0381
+- Recall: 0.6556 ± 0.0465
+- F1: 0.6390 ± 0.0433
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+
+## SVM
+- Test_Acc: 0.7444 ± 0.0305
+- Precision: 0.7620 ± 0.0354
+- Recall: 0.7444 ± 0.0305
+- F1: 0.7371 ± 0.0382
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+
+## CatBoost
+- Test_Acc: 0.7333 ± 0.0249
+- Precision: 0.7351 ± 0.0222
+- Recall: 0.7333 ± 0.0249
+- F1: 0.7237 ± 0.0272
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+
+## KNN
+- Test_Acc: 0.7000 ± 0.1083
+- Precision: 0.6981 ± 0.1652
+- Recall: 0.7000 ± 0.1083
+- F1: 0.6811 ± 0.1330
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+
+## ElasticNet
+- Test_Acc: 0.6889 ± 0.0842
+- Precision: 0.7108 ± 0.0824
+- Recall: 0.6889 ± 0.0842
+- F1: 0.6713 ± 0.0984
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+
+## MLP
+- Test_Acc: 0.7000 ± 0.1009
+- Precision: 0.6996 ± 0.1024
+- Recall: 0.7000 ± 0.1009
+- F1: 0.6933 ± 0.1022
+- latent_dim más frecuente: 8
+- recon_error medio: 0.229039
+

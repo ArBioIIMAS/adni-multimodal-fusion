@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: ElasticNet | SEMILLA: 21
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.069282
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'perceptron', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.8333, Prec=0.8381, Rec=0.8333, F1=0.8322

@@ -1,0 +1,6 @@
+MÉTODO: SPCA | MODELO: KNN | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8.0, 'alpha': 0.5}
+Recon error: 0.160904
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 3, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.9444, Prec=0.9524, Rec=0.9444, F1=0.9441

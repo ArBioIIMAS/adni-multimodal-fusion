@@ -1,0 +1,7 @@
+MÉTODO: SPCA | MODELO: ElasticNet | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'alpha': 1.0}
+Recon error: 0.038749
+Selector ganador: FromModel_RandomForestClassifier con k=36
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'log_loss', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=35),
+                threshold=-inf), 'selector__max_features': 36}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641

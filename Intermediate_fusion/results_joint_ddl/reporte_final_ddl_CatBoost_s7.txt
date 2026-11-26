@@ -1,0 +1,20 @@
+MÉTODO: DDL | MODELO: CatBoost | SEMILLA: 7
+GANADOR: KBest_f_classif con k=24
+Repr config: {'latent_dim': 8.0, 'l1_lambda': 0.001}
+Recon error: 0.091054
+Mejores Parámetros: {'model__depth': 7, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.7222, Prec=0.7937, Rec=0.7222, F1=0.6897
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.67      1.00      0.80         6
+         DCL       1.00      0.33      0.50         6
+          EA       0.71      0.83      0.77         6
+
+    accuracy                           0.72        18
+   macro avg       0.79      0.72      0.69        18
+weighted avg       0.79      0.72      0.69        18
+
+ROIs (ordenadas por importancia):
+['Meta_lat3', 'Morfo_lat5', 'Morfo_lat2', 'DTI_lat2', 'DTI_lat1', 'DTI_lat7', 'DTI_lat5', 'Morfo_lat7', 'Meta_lat6', 'Meta_lat5', 'DTI_lat0', 'Morfo_lat6', 'Meta_lat4', 'Morfo_lat0', 'DTI_lat4', 'Meta_lat7', 'Meta_lat1', 'Morfo_lat4', 'Morfo_lat1', 'Meta_lat2', 'DTI_lat6', 'Morfo_lat3', 'DTI_lat3', 'Meta_lat0']

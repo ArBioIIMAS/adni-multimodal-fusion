@@ -1,0 +1,33 @@
+# Deep Dictionary Learning — Resumen de Resultados
+
+## Configuración
+- Latent dim por modalidad: 16
+- Épocas: 150  |  Batch size: 8
+- Regularización L1 (sparsity): 1e-4
+- Dimensión fusionada: 48 features
+- Train: 42 sujetos  |  Test: 18 sujetos
+- Clases train: {np.int64(0): np.int64(14), np.int64(1): np.int64(14), np.int64(2): np.int64(14)}
+- Clases test:  {np.int64(0): np.int64(6), np.int64(1): np.int64(6), np.int64(2): np.int64(6)}
+- Semillas: [7, 14, 21, 28, 35]
+- k features evaluados: [5, 10, 15]
+
+## Métricas en Test (media ± std sobre 5 semillas)
+
+### SVM
+- Accuracy:  0.9000 ± 0.0416
+- Precision: 0.9135 ± 0.0369
+- Recall:    0.9000 ± 0.0416
+- F1 macro:  0.8987 ± 0.0424
+
+### RandomForest
+- Accuracy:  0.8889 ± 0.0351
+- Precision: 0.9127 ± 0.0234
+- Recall:    0.8889 ± 0.0351
+- F1 macro:  0.8853 ± 0.0386
+
+### KNN
+- Accuracy:  0.9111 ± 0.0667
+- Precision: 0.9236 ± 0.0576
+- Recall:    0.9111 ± 0.0667
+- F1 macro:  0.9120 ± 0.0642
+

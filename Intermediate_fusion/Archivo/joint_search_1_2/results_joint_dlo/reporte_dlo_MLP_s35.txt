@@ -1,0 +1,6 @@
+MÉTODO: DLO | MODELO: MLP | SEMILLA: 35
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'batch_size': 16}
+Recon error: 0.230157
+Selector ganador: KBest_f_classif con k=60
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.5, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectKBest(), 'selector__k': 60}
+Métricas Test: Acc=0.7222, Prec=0.7460, Rec=0.7222, F1=0.7304

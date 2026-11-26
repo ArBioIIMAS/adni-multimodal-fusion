@@ -1,0 +1,20 @@
+MÉTODO: DLO | MODELO: ElasticNet | SEMILLA: 7
+GANADOR: KBest_f_classif con k=48
+Repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'batch_size': 8}
+Recon error: 0.240781
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'log_loss', 'selector': SelectKBest(), 'selector__k': 48}
+Métricas Test: Acc=0.7778, Prec=0.8083, Rec=0.7778, F1=0.7835
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.80      0.67      0.73         6
+         DCL       0.62      0.83      0.71         6
+          EA       1.00      0.83      0.91         6
+
+    accuracy                           0.78        18
+   macro avg       0.81      0.78      0.78        18
+weighted avg       0.81      0.78      0.78        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat4', 'Morfo_lat3', 'Morfo_lat0', 'Meta_lat4', 'DTI_lat1', 'Meta_lat3', 'DTI_lat0', 'Morfo_lat7', 'Meta_lat1', 'Morfo_lat1', 'Morfo_lat2', 'Morfo_lat6', 'Morfo_lat5', 'DTI_lat2', 'Morfo_lat4', 'DTI_lat7', 'DTI_lat6', 'Meta_lat2', 'DTI_lat3', 'Meta_lat5', 'Meta_lat6', 'Meta_lat7', 'Meta_lat0', 'DTI_lat5']

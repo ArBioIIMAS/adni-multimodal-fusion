@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: RF | SEMILLA: 7
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.071149
+Selector ganador: KBest_f_classif con k=60
+Mejores params clf: {'model__criterion': 'gini', 'model__max_depth': None, 'model__min_samples_split': 3, 'model__n_estimators': 40, 'selector': SelectKBest(), 'selector__k': 60}
+Métricas Test: Acc=0.9444, Prec=0.9524, Rec=0.9444, F1=0.9441

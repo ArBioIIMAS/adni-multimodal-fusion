@@ -1,0 +1,51 @@
+# SPCA — Resumen Final
+# Evaluación: media ± std sobre 5 semillas
+
+## RF
+- Test_Acc: 0.9111 ± 0.0745
+- Precision: 0.9167 ± 0.0799
+- Recall: 0.9111 ± 0.0745
+- F1: 0.9081 ± 0.0805
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+
+## SVM
+- Test_Acc: 0.8222 ± 0.1326
+- Precision: 0.8229 ± 0.1479
+- Recall: 0.8222 ± 0.1326
+- F1: 0.8165 ± 0.1383
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+
+## CatBoost
+- Test_Acc: 0.9222 ± 0.0633
+- Precision: 0.9264 ± 0.0632
+- Recall: 0.9222 ± 0.0633
+- F1: 0.9219 ± 0.0637
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+
+## KNN
+- Test_Acc: 0.8778 ± 0.0465
+- Precision: 0.8853 ± 0.0541
+- Recall: 0.8778 ± 0.0465
+- F1: 0.8748 ± 0.0488
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+
+## ElasticNet
+- Test_Acc: 0.7889 ± 0.1267
+- Precision: 0.7892 ± 0.1280
+- Recall: 0.7889 ± 0.1267
+- F1: 0.7830 ± 0.1291
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+
+## MLP
+- Test_Acc: 0.8556 ± 0.0497
+- Precision: 0.8629 ± 0.0486
+- Recall: 0.8556 ± 0.0497
+- F1: 0.8538 ± 0.0477
+- latent_dim más frecuente: 8.0
+- recon_error medio: 0.143407
+

@@ -1,0 +1,6 @@
+MÉTODO: SC | MODELO: CatBoost | SEMILLA: 28
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.187913
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__depth': 5, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.7778, Prec=0.7937, Rec=0.7778, F1=0.7817

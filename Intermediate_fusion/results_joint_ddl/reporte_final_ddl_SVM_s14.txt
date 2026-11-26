@@ -1,0 +1,21 @@
+MÉTODO: DDL | MODELO: SVM | SEMILLA: 14
+GANADOR: FromModel_RandomForestClassifier con k=36
+Repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.062881
+Mejores Parámetros: {'model__C': 0.1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=14),
+                threshold=-inf), 'selector__max_features': 36}
+Métricas Test: Acc=0.8333, Prec=0.8381, Rec=0.8333, F1=0.8322
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.71      0.83      0.77         6
+         DCL       0.80      0.67      0.73         6
+          EA       1.00      1.00      1.00         6
+
+    accuracy                           0.83        18
+   macro avg       0.84      0.83      0.83        18
+weighted avg       0.84      0.83      0.83        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat12', 'Morfo_lat9', 'DTI_lat13', 'DTI_lat5', 'Meta_lat13', 'Morfo_lat3', 'DTI_lat7', 'DTI_lat4', 'Meta_lat14', 'Morfo_lat12', 'Morfo_lat11', 'Morfo_lat2', 'Morfo_lat15', 'Meta_lat2', 'Morfo_lat1', 'Morfo_lat14', 'Meta_lat0', 'Meta_lat9', 'DTI_lat1', 'Morfo_lat0', 'Meta_lat7', 'Meta_lat12', 'Morfo_lat10', 'Morfo_lat8', 'Meta_lat6', 'Meta_lat11', 'Morfo_lat13', 'DTI_lat2', 'DTI_lat6', 'Meta_lat4', 'Morfo_lat6', 'DTI_lat10', 'Morfo_lat5', 'Morfo_lat7', 'Morfo_lat4', 'Meta_lat15', 'Meta_lat10', 'DTI_lat0', 'Meta_lat5', 'Meta_lat1', 'DTI_lat11', 'DTI_lat8', 'DTI_lat14', 'DTI_lat9', 'Meta_lat8', 'DTI_lat3', 'DTI_lat15', 'Meta_lat3']

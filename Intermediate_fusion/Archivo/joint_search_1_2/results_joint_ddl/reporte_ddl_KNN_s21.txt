@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: KNN | SEMILLA: 21
+Mejor repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.057928
+Selector ganador: KBest_f_classif con k=36
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 3, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 36}
+Métricas Test: Acc=0.6111, Prec=0.6389, Rec=0.6111, F1=0.6127

@@ -1,0 +1,7 @@
+MÉTODO: SPCA | MODELO: MLP | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8.0, 'alpha': 0.5}
+Recon error: 0.160904
+Selector ganador: FromModel_RandomForestClassifier con k=36
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.4, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=7),
+                threshold=-inf), 'selector__max_features': 36}
+Métricas Test: Acc=0.8889, Prec=0.9048, Rec=0.8889, F1=0.8821

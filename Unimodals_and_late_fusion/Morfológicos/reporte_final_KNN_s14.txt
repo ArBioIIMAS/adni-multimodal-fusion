@@ -1,0 +1,16 @@
+MODELO: KNN | SEMILLA: 14
+GANADOR: FromModel_RandomForestClassifier con k=24
+Mejores Parámetros: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 7, 'model__weights': 'distance', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=14),
+                threshold=-inf), 'selector__max_features': 24}
+Métricas Test: Acc=0.7778, Prec=0.7825, Rec=0.7778, F1=0.7766
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.83      0.83      0.83         6
+         DCL       0.80      0.67      0.73         6
+          EA       0.71      0.83      0.77         6
+
+    accuracy                           0.78        18
+   macro avg       0.78      0.78      0.78        18
+weighted avg       0.78      0.78      0.78        18
+ROIs: ['Compacidad_amig_der', 'Tortuosidad_amig_der', 'VolumenN_hip_izq', 'Tortuosidad_amig_izq', 'Compacidad_hip_izq', 'Compacidad_amig_izq', 'Volumen_amig_izq', 'Tortuosidad_hip_izq', 'Area_amig_der', 'Volumen_hip_izq', 'Volumen_amig_der', 'Volumen_hip_der', 'Tortuosidad_tal_der', 'VolumenN_amig_izq', 'Tortuosidad_hip_der', 'Compacidad_tal_der', 'VolumenN_tal_der', 'Tortuosidad_tal_izq', 'Volumen_tal_izq', 'VolumenN_amig_der', 'Soam_hip_izq', 'Area_tal_der', 'Volumen_tal_der', 'Compacidad_tal_izq', 'Compacidad_hip_der', 'Area_tal_izq', 'Area_amig_izq', 'Area_hip_der', 'VolumenN_hip_der', 'Soam_tal_izq', 'Soam_hip_der', 'Area_hip_izq', 'Soam_tal_der', 'Soam_amig_izq', 'VolumenN_tal_izq', 'Soam_amig_der']

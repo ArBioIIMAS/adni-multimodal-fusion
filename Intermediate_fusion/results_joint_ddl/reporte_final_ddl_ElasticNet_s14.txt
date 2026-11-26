@@ -1,0 +1,20 @@
+MÉTODO: DDL | MODELO: ElasticNet | SEMILLA: 14
+GANADOR: KBest_mutual_info_classif con k=24
+Repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.062881
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.5, 'model__loss': 'log_loss', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x71eba36aa8e0>, random_state=14)), 'selector__k': 24}
+Métricas Test: Acc=0.7778, Prec=0.7778, Rec=0.7778, F1=0.7778
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.67      0.67      0.67         6
+         DCL       0.67      0.67      0.67         6
+          EA       1.00      1.00      1.00         6
+
+    accuracy                           0.78        18
+   macro avg       0.78      0.78      0.78        18
+weighted avg       0.78      0.78      0.78        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat5', 'DTI_lat7', 'Morfo_lat9', 'Morfo_lat11', 'Morfo_lat3', 'DTI_lat12', 'Morfo_lat12', 'Meta_lat0', 'Morfo_lat0', 'Meta_lat11', 'DTI_lat13', 'Meta_lat7', 'DTI_lat1', 'DTI_lat2', 'Morfo_lat10', 'Meta_lat14', 'Meta_lat9', 'Meta_lat13', 'DTI_lat0', 'Morfo_lat6', 'Meta_lat5', 'DTI_lat4', 'Morfo_lat5', 'Meta_lat6', 'Meta_lat2', 'Morfo_lat7', 'Morfo_lat1', 'DTI_lat11', 'Morfo_lat13', 'Meta_lat3', 'Morfo_lat2', 'DTI_lat9', 'Morfo_lat8', 'DTI_lat14', 'DTI_lat15', 'DTI_lat10', 'DTI_lat3', 'DTI_lat6', 'DTI_lat8', 'Meta_lat4', 'Meta_lat15', 'Meta_lat12', 'Meta_lat8', 'Meta_lat10', 'Meta_lat1', 'Morfo_lat4', 'Morfo_lat14', 'Morfo_lat15']

@@ -1,0 +1,21 @@
+MÉTODO: SC | MODELO: ElasticNet | SEMILLA: 7
+GANADOR: FromModel_RandomForestClassifier con k=12
+Repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.187338
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.5, 'model__loss': 'perceptron', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=7),
+                threshold=-inf), 'selector__max_features': 12}
+Métricas Test: Acc=0.8889, Prec=0.8968, Rec=0.8889, F1=0.8885
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.83      0.83      0.83         6
+         DCL       1.00      0.83      0.91         6
+          EA       0.86      1.00      0.92         6
+
+    accuracy                           0.89        18
+   macro avg       0.90      0.89      0.89        18
+weighted avg       0.90      0.89      0.89        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat0', 'Morfo_lat5', 'DTI_lat7', 'Morfo_lat0', 'Morfo_lat2', 'DTI_lat6', 'Morfo_lat6', 'Morfo_lat7', 'DTI_lat1', 'Meta_lat0', 'Meta_lat4', 'DTI_lat5', 'DTI_lat2', 'DTI_lat4', 'Morfo_lat3', 'Morfo_lat4', 'Meta_lat7', 'Meta_lat5', 'DTI_lat3', 'Meta_lat3', 'Morfo_lat1', 'Meta_lat6', 'Meta_lat1', 'Meta_lat2']

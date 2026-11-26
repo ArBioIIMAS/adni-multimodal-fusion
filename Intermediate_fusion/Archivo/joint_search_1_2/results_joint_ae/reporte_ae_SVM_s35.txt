@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: SVM | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.065061
+Selector ganador: KBest_f_classif con k=24
+Mejores params clf: {'model__C': 0.1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=1.0000, Prec=1.0000, Rec=1.0000, F1=1.0000

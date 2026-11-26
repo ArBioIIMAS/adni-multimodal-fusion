@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: RF | SEMILLA: 14
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.067981
+Selector ganador: KBest_mutual_info_classif con k=24
+Mejores params clf: {'model__criterion': 'entropy', 'model__max_depth': 3, 'model__min_samples_split': 3, 'model__n_estimators': 40, 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=14)), 'selector__k': 24}
+Métricas Test: Acc=0.9444, Prec=0.9524, Rec=0.9444, F1=0.9441

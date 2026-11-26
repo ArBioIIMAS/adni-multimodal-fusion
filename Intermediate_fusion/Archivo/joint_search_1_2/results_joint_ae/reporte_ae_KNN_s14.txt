@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: KNN | SEMILLA: 14
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.067981
+Selector ganador: KBest_mutual_info_classif con k=12
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 7, 'model__weights': 'distance', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=14)), 'selector__k': 12}
+Métricas Test: Acc=0.8889, Prec=0.8889, Rec=0.8889, F1=0.8889

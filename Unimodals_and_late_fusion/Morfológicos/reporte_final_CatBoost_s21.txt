@@ -1,0 +1,15 @@
+MODELO: CatBoost | SEMILLA: 21
+GANADOR: KBest_mutual_info_classif con k=24
+Mejores Parámetros: {'model__depth': 5, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x79997ebf9440>, random_state=21)), 'selector__k': 24}
+Métricas Test: Acc=0.7222, Prec=0.7917, Rec=0.7222, F1=0.6905
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.75      1.00      0.86         6
+         DCL       1.00      0.33      0.50         6
+          EA       0.62      0.83      0.71         6
+
+    accuracy                           0.72        18
+   macro avg       0.79      0.72      0.69        18
+weighted avg       0.79      0.72      0.69        18
+ROIs: ['Compacidad_amig_izq', 'Tortuosidad_amig_izq', 'Compacidad_amig_der', 'Tortuosidad_amig_der', 'Volumen_hip_izq', 'Volumen_amig_der', 'Volumen_amig_izq', 'Volumen_hip_der', 'Compacidad_hip_izq', 'Tortuosidad_hip_izq', 'VolumenN_hip_izq', 'Compacidad_hip_der', 'VolumenN_amig_izq', 'Area_hip_izq', 'Tortuosidad_tal_der', 'Tortuosidad_hip_der', 'Area_amig_der', 'Compacidad_tal_der', 'VolumenN_amig_der', 'Area_hip_der', 'VolumenN_hip_der', 'Volumen_tal_der', 'Area_amig_izq', 'Area_tal_izq', 'Compacidad_tal_izq', 'Tortuosidad_tal_izq', 'Soam_tal_der', 'VolumenN_tal_izq', 'Volumen_tal_izq', 'Soam_amig_izq', 'Soam_tal_izq', 'Soam_hip_izq', 'VolumenN_tal_der', 'Area_tal_der', 'Soam_hip_der', 'Soam_amig_der']

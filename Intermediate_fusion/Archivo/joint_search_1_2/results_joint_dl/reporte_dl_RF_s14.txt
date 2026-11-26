@@ -1,0 +1,6 @@
+MÉTODO: DL | MODELO: RF | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars'}
+Recon error: 0.229039
+Selector ganador: KBest_f_classif con k=60
+Mejores params clf: {'model__criterion': 'gini', 'model__max_depth': None, 'model__min_samples_split': 3, 'model__n_estimators': 60, 'selector': SelectKBest(), 'selector__k': 60}
+Métricas Test: Acc=0.7222, Prec=0.7163, Rec=0.7222, F1=0.6939

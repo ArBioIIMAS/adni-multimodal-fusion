@@ -1,0 +1,6 @@
+MÉTODO: DL | MODELO: MLP | SEMILLA: 21
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars'}
+Recon error: 0.229039
+Selector ganador: KBest_mutual_info_classif con k=36
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.5, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7ed579af2660>, random_state=21)), 'selector__k': 36}
+Métricas Test: Acc=0.6667, Prec=0.6667, Rec=0.6667, F1=0.6667

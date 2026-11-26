@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: RF | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8.0, 'l1_lambda': 0.001}
+Recon error: 0.091054
+Selector ganador: KBest_mutual_info_classif con k=36
+Mejores params clf: {'model__criterion': 'gini', 'model__max_depth': 3, 'model__min_samples_split': 3, 'model__n_estimators': 40, 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=7)), 'selector__k': 36}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641

@@ -1,0 +1,6 @@
+MÉTODO: DL | MODELO: KNN | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars'}
+Recon error: 0.229039
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 5, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.6111, Prec=0.6185, Rec=0.6111, F1=0.5980

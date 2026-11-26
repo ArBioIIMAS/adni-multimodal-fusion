@@ -1,0 +1,15 @@
+MODELO: CatBoost | SEMILLA: 14
+GANADOR: KBest_f_classif con k=24
+Mejores Parámetros: {'model__depth': 7, 'model__iterations': 1000, 'model__l2_leaf_reg': 2, 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.6111, Prec=0.6238, Rec=0.6111, F1=0.6142
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.80      0.67      0.73         6
+         DCL       0.50      0.50      0.50         6
+          EA       0.57      0.67      0.62         6
+
+    accuracy                           0.61        18
+   macro avg       0.62      0.61      0.61        18
+weighted avg       0.62      0.61      0.61        18
+ROIs: ['peak_amig_der_PET', 'peak_amig_izq_PET', 'std_tal_izq_PET', 'kurtosis_amig_der_PET', 'mean_amig_izq_PET', 'median_amig_izq_PET', 'location_amig_izq_PET', 'skewness_amig_der_PET', 'kurtosis_hip_der_PET', 'mean_amig_der_PET', 'kurtosis_hip_izq_PET', 'median_amig_der_PET', 'location_tal_der_PET', 'kurtosis_amig_izq_PET', 'location_amig_der_PET', 'peak_hip_izq_PET', 'entropy_tal_izq_PET', 'std_tal_der_PET', 'skewness_hip_izq_PET', 'median_tal_der_PET', 'skewness_tal_der_PET', 'skewness_hip_der_PET', 'location_tal_izq_PET', 'mean_tal_der_PET', 'std_hip_izq_PET', 'entropy_amig_der_PET', 'kurtosis_tal_der_PET', 'median_tal_izq_PET', 'mean_tal_izq_PET', 'std_amig_der_PET', 'kurtosis_tal_izq_PET', 'location_hip_der_PET', 'skewness_tal_izq_PET', 'std_hip_der_PET', 'entropy_tal_der_PET', 'median_hip_der_PET', 'peak_tal_izq_PET', 'median_hip_izq_PET', 'peak_hip_der_PET', 'mean_hip_izq_PET', 'location_hip_izq_PET', 'skewness_amig_izq_PET', 'mean_hip_der_PET', 'entropy_hip_izq_PET', 'std_amig_izq_PET', 'entropy_amig_izq_PET', 'peak_tal_der_PET', 'entropy_hip_der_PET']

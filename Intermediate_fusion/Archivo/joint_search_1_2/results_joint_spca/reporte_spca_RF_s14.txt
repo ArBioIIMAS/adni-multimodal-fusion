@@ -1,0 +1,7 @@
+MÉTODO: SPCA | MODELO: RF | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8.0, 'alpha': 0.5}
+Recon error: 0.160904
+Selector ganador: FromModel_RandomForestClassifier con k=48
+Mejores params clf: {'model__criterion': 'gini', 'model__max_depth': 3, 'model__min_samples_split': 3, 'model__n_estimators': 60, 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=14),
+                threshold=-inf), 'selector__max_features': 48}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641

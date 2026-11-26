@@ -1,0 +1,6 @@
+MÉTODO: DLO | MODELO: KNN | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'batch_size': 8}
+Recon error: 0.240781
+Selector ganador: KBest_f_classif con k=24
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 3, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.6667, Prec=0.6852, Rec=0.6667, F1=0.6481

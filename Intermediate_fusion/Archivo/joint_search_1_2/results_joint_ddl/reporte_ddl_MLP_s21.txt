@@ -1,0 +1,7 @@
+MÉTODO: DDL | MODELO: MLP | SEMILLA: 21
+Mejor repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.057928
+Selector ganador: FromModel_RandomForestClassifier con k=60
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.4, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=21),
+                threshold=-inf), 'selector__max_features': 60}
+Métricas Test: Acc=0.8333, Prec=0.8690, Rec=0.8333, F1=0.8156

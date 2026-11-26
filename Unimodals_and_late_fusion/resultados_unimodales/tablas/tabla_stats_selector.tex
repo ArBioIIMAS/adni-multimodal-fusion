@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Rendimiento de clasificación por mecanismo de selección de características y modalidad ($\text{Media} \pm \text{DE}$).}
+\label{tab:stats_selector}
+\small
+\begin{tabular}{l l c c c}
+\hline
+\textbf{Modalidad} & \textbf{Selector} & \textbf{Frecuencia ($N$)} & \textbf{Accuracy} & \textbf{F1-Score} \\
+\hline
+\multirow{3}{*}{MRI} & MDI (RF) & 11 & $0.6970 \pm 0.0575$ & $0.6753 \pm 0.0649$ \\
+ & ANOVA & 15 & $0.6963 \pm 0.0936$ & $0.6790 \pm 0.1007$ \\
+ & MI & 4 & $0.6806 \pm 0.0949$ & $0.6589 \pm 0.1086$ \\
+\hline
+\multirow{3}{*}{PET} & MDI (RF) & 8 & $0.5833 \pm 0.0664$ & $0.5729 \pm 0.0723$ \\
+ & MI & 13 & $0.5769 \pm 0.0950$ & $0.5665 \pm 0.0985$ \\
+ & ANOVA & 9 & $0.5679 \pm 0.0540$ & $0.5646 \pm 0.0578$ \\
+\hline
+\multirow{3}{*}{DTI} & MDI (RF) & 1 & $0.8333 \pm nan$ & $0.8322 \pm nan$ \\
+ & ANOVA & 16 & $0.8021 \pm 0.1014$ & $0.7942 \pm 0.1164$ \\
+ & MI & 13 & $0.7436 \pm 0.0770$ & $0.7254 \pm 0.0921$ \\
+\hline
+\end{tabular}
+\end{table}

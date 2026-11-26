@@ -1,0 +1,16 @@
+MODELO: ElasticNet | SEMILLA: 14
+GANADOR: FromModel_RandomForestClassifier con k=12
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.65, 'model__loss': 'log_loss', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=14),
+                threshold=-inf), 'selector__max_features': 12}
+Métricas Test: Acc=0.5000, Prec=0.4861, Rec=0.5000, F1=0.4825
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.50      0.33      0.40         6
+         DCL       0.33      0.33      0.33         6
+          EA       0.62      0.83      0.71         6
+
+    accuracy                           0.50        18
+   macro avg       0.49      0.50      0.48        18
+weighted avg       0.49      0.50      0.48        18
+ROIs: ['peak_amig_der_PET', 'std_tal_izq_PET', 'peak_amig_izq_PET', 'mean_amig_izq_PET', 'entropy_tal_izq_PET', 'skewness_amig_der_PET', 'kurtosis_hip_der_PET', 'kurtosis_amig_izq_PET', 'median_amig_izq_PET', 'kurtosis_amig_der_PET', 'skewness_hip_izq_PET', 'location_hip_der_PET', 'mean_amig_der_PET', 'skewness_amig_izq_PET', 'location_amig_der_PET', 'kurtosis_hip_izq_PET', 'kurtosis_tal_izq_PET', 'location_tal_der_PET', 'skewness_tal_izq_PET', 'skewness_hip_der_PET', 'std_hip_izq_PET', 'median_tal_izq_PET', 'location_hip_izq_PET', 'median_amig_der_PET', 'std_amig_izq_PET', 'entropy_amig_der_PET', 'peak_hip_izq_PET', 'location_tal_izq_PET', 'entropy_tal_der_PET', 'std_tal_der_PET', 'mean_hip_der_PET', 'skewness_tal_der_PET', 'entropy_hip_izq_PET', 'kurtosis_tal_der_PET', 'peak_tal_izq_PET', 'mean_tal_der_PET', 'median_tal_der_PET', 'std_amig_der_PET', 'peak_tal_der_PET', 'mean_tal_izq_PET', 'std_hip_der_PET', 'location_amig_izq_PET', 'mean_hip_izq_PET', 'entropy_amig_izq_PET', 'entropy_hip_der_PET', 'peak_hip_der_PET', 'median_hip_der_PET', 'median_hip_izq_PET']

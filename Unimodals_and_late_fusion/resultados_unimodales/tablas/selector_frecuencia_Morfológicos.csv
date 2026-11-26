@@ -1,0 +1,4 @@
+Count,count
+KBest_f_classif,15
+FromModel_RandomForestClassifier,11
+KBest_mutual_info_classif,4

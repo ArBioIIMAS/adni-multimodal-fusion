@@ -1,0 +1,4 @@
+Modalidad,Modelo,Seed,Selector,k,Train Acc.,Accuracy,Precision,Sensibilidad,F1
+Morfológicos,ElasticNet,21,FromModel_RandomForestClassifier,12,0.7857,0.6111,0.5972,0.6111,0.5937
+Metabólicos,SVM,7,KBest_mutual_info_classif,24,0.6905,0.6111,0.6048,0.6111,0.6049
+DTI,SVM,28,KBest_mutual_info_classif,24,0.9048,0.7778,0.8667,0.7778,0.75

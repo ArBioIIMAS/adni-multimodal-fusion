@@ -1,0 +1,6 @@
+MÉTODO: DLO | MODELO: RF | SEMILLA: 21
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'omp', 'batch_size': 16}
+Recon error: 0.172532
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__criterion': 'gini', 'model__max_depth': 3, 'model__min_samples_split': 3, 'model__n_estimators': 40, 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.7222, Prec=0.7389, Rec=0.7222, F1=0.7091

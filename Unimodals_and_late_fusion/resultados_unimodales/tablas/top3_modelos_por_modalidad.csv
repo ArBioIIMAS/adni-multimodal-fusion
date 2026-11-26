@@ -1,0 +1,10 @@
+Modalidad,Rank,Modelo,Seed,Selector,k,Train Acc.,Accuracy,Precision,Sensibilidad,F1
+Morfológicos,1,SVM,21,KBest_f_classif,24,0.7143,0.8333,0.8333,0.8333,0.8333
+Morfológicos,2,SVM,7,KBest_f_classif,24,0.6905,0.8333,0.8571,0.8333,0.8308
+Morfológicos,3,ElasticNet,14,KBest_f_classif,24,0.7381,0.7778,0.7825,0.7778,0.7766
+Metabólicos,1,SVM,35,KBest_mutual_info_classif,12,0.5952,0.7778,0.7738,0.7778,0.7641
+Metabólicos,2,ElasticNet,35,KBest_f_classif,24,0.6429,0.6667,0.6667,0.6667,0.6667
+Metabólicos,3,CatBoost,28,KBest_mutual_info_classif,24,0.619,0.6667,0.675,0.6667,0.6623
+DTI,1,SVM,35,KBest_f_classif,48,0.8333,0.9444,0.9524,0.9444,0.9441
+DTI,2,SVM,7,KBest_f_classif,60,0.8333,0.9444,0.9524,0.9444,0.9441
+DTI,3,RF,14,KBest_f_classif,60,0.8571,0.8889,0.8889,0.8889,0.8889

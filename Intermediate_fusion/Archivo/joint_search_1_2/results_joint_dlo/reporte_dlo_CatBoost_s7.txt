@@ -1,0 +1,6 @@
+MÉTODO: DLO | MODELO: CatBoost | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'batch_size': 8}
+Recon error: 0.240781
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__depth': 7, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.8889, Prec=0.8889, Rec=0.8889, F1=0.8889

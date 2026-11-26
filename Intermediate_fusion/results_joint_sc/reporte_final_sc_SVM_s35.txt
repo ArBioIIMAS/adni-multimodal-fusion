@@ -1,0 +1,20 @@
+MÉTODO: SC | MODELO: SVM | SEMILLA: 35
+GANADOR: KBest_f_classif con k=24
+Repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.185938
+Mejores Parámetros: {'model__C': 0.1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.8333, Prec=0.8302, Rec=0.8333, F1=0.8279
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.83      0.83      0.83         6
+         DCL       0.80      0.67      0.73         6
+          EA       0.86      1.00      0.92         6
+
+    accuracy                           0.83        18
+   macro avg       0.83      0.83      0.83        18
+weighted avg       0.83      0.83      0.83        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat6', 'DTI_lat4', 'Morfo_lat7', 'DTI_lat0', 'Meta_lat0', 'Morfo_lat0', 'Morfo_lat6', 'DTI_lat7', 'Morfo_lat5', 'Meta_lat7', 'DTI_lat1', 'Meta_lat3', 'Morfo_lat2', 'Meta_lat2', 'Morfo_lat3', 'DTI_lat3', 'Meta_lat1', 'Morfo_lat1', 'Morfo_lat4', 'DTI_lat5', 'DTI_lat2', 'Meta_lat6', 'Meta_lat5', 'Meta_lat4']

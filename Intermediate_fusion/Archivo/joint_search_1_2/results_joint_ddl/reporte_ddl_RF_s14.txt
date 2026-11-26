@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: RF | SEMILLA: 14
+Mejor repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.062881
+Selector ganador: KBest_f_classif con k=24
+Mejores params clf: {'model__criterion': 'entropy', 'model__max_depth': None, 'model__min_samples_split': 3, 'model__n_estimators': 60, 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.8889, Prec=0.9167, Rec=0.8889, F1=0.8857

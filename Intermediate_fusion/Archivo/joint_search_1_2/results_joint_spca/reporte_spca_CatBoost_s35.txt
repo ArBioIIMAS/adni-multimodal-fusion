@@ -1,0 +1,6 @@
+MÉTODO: SPCA | MODELO: CatBoost | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'alpha': 1.0}
+Recon error: 0.038749
+Selector ganador: KBest_f_classif con k=48
+Mejores params clf: {'model__depth': 7, 'model__iterations': 1000, 'model__l2_leaf_reg': 2, 'selector': SelectKBest(), 'selector__k': 48}
+Métricas Test: Acc=0.8889, Prec=0.8889, Rec=0.8889, F1=0.8889

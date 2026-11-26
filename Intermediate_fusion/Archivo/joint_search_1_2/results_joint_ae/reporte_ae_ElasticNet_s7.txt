@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: ElasticNet | SEMILLA: 7
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.071149
+Selector ganador: KBest_mutual_info_classif con k=36
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'log_loss', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=7)), 'selector__k': 36}
+Métricas Test: Acc=0.8889, Prec=0.8968, Rec=0.8889, F1=0.8885

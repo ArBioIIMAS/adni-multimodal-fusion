@@ -1,0 +1,7 @@
+MÉTODO: SC | MODELO: MLP | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.187338
+Selector ganador: FromModel_RandomForestClassifier con k=12
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.5, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=7),
+                threshold=-inf), 'selector__max_features': 12}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641

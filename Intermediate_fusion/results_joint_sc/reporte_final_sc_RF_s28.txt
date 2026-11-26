@@ -1,0 +1,20 @@
+MÉTODO: SC | MODELO: RF | SEMILLA: 28
+GANADOR: KBest_f_classif con k=12
+Repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.187913
+Mejores Parámetros: {'model__criterion': 'gini', 'model__max_depth': None, 'model__min_samples_split': 3, 'model__n_estimators': 40, 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.7778, Prec=0.7738, Rec=0.7778, F1=0.7641
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.71      0.83      0.77         6
+         DCL       0.75      0.50      0.60         6
+          EA       0.86      1.00      0.92         6
+
+    accuracy                           0.78        18
+   macro avg       0.77      0.78      0.76        18
+weighted avg       0.77      0.78      0.76        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat4', 'Morfo_lat0', 'Meta_lat3', 'DTI_lat2', 'DTI_lat6', 'Morfo_lat5', 'Morfo_lat7', 'Meta_lat0', 'DTI_lat0', 'Morfo_lat3', 'DTI_lat7', 'Meta_lat1', 'Morfo_lat6', 'Morfo_lat2', 'Meta_lat6', 'Morfo_lat1', 'Meta_lat2', 'DTI_lat3', 'Meta_lat5', 'DTI_lat1', 'Meta_lat7', 'DTI_lat5', 'Meta_lat4', 'Morfo_lat4']

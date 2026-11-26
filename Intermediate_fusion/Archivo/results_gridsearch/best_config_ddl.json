@@ -1,0 +1,44 @@
+{
+  "SVM": {
+    "latent_dim": 32,
+    "l1_lambda": 0.001,
+    "k_selector": "all",
+    "k_used": 96,
+    "recon_error": 0.050843,
+    "fused_dim": 96,
+    "cv_acc_SVM": 0.8571,
+    "cv_acc_std_SVM": 0.1166,
+    "cv_acc_RF": 0.619,
+    "cv_acc_std_RF": 0.1579,
+    "cv_acc_KNN": 0.6429,
+    "cv_acc_std_KNN": 0.1368
+  },
+  "RF": {
+    "latent_dim": 16,
+    "l1_lambda": 0.0001,
+    "k_selector": 20,
+    "k_used": 20,
+    "recon_error": 0.060525,
+    "fused_dim": 48,
+    "cv_acc_SVM": 0.6905,
+    "cv_acc_std_SVM": 0.1282,
+    "cv_acc_RF": 0.8571,
+    "cv_acc_std_RF": 0.1166,
+    "cv_acc_KNN": 0.619,
+    "cv_acc_std_KNN": 0.2564
+  },
+  "KNN": {
+    "latent_dim": 32,
+    "l1_lambda": 0.0001,
+    "k_selector": 10,
+    "k_used": 10,
+    "recon_error": 0.050822,
+    "fused_dim": 96,
+    "cv_acc_SVM": 0.7381,
+    "cv_acc_std_SVM": 0.1282,
+    "cv_acc_RF": 0.8333,
+    "cv_acc_std_RF": 0.0982,
+    "cv_acc_KNN": 0.8571,
+    "cv_acc_std_KNN": 0.1166
+  }
+}

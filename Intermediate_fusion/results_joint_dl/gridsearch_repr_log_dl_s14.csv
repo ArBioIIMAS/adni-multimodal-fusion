@@ -1,0 +1,7 @@
+latent_dim,transform_algorithm,cv_acc,recon_error
+8,lasso_lars,0.5476,0.229039
+8,omp,0.5476,0.229039
+16,lasso_lars,0.4524,0.135704
+16,omp,0.4524,0.135704
+32,lasso_lars,0.381,0.051185
+32,omp,0.381,0.051185

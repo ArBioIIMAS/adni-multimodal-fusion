@@ -1,0 +1,6 @@
+MÉTODO: DDL | MODELO: KNN | SEMILLA: 28
+Mejor repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.057069
+Selector ganador: KBest_mutual_info_classif con k=24
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 5, 'model__weights': 'distance', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=28)), 'selector__k': 24}
+Métricas Test: Acc=0.8889, Prec=0.8889, Rec=0.8889, F1=0.8889

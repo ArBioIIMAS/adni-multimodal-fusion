@@ -1,0 +1,7 @@
+MÉTODO: DDL | MODELO: SVM | SEMILLA: 14
+Mejor repr config: {'latent_dim': 16.0, 'l1_lambda': 0.001}
+Recon error: 0.062881
+Selector ganador: FromModel_RandomForestClassifier con k=36
+Mejores params clf: {'model__C': 0.1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=14),
+                threshold=-inf), 'selector__max_features': 36}
+Métricas Test: Acc=0.8333, Prec=0.8381, Rec=0.8333, F1=0.8322

@@ -1,0 +1,44 @@
+{
+  "SVM": {
+    "latent_dim": 8,
+    "transform_algorithm": "lasso_lars",
+    "k_selector": 10,
+    "k_used": 10,
+    "recon_error": 0.229039,
+    "fused_dim": 24,
+    "cv_acc_SVM": 0.7619,
+    "cv_acc_std_SVM": 0.1579,
+    "cv_acc_RF": 0.6905,
+    "cv_acc_std_RF": 0.0982,
+    "cv_acc_KNN": 0.6905,
+    "cv_acc_std_KNN": 0.0982
+  },
+  "RF": {
+    "latent_dim": 8,
+    "transform_algorithm": "lasso_lars",
+    "k_selector": 10,
+    "k_used": 10,
+    "recon_error": 0.229039,
+    "fused_dim": 24,
+    "cv_acc_SVM": 0.7619,
+    "cv_acc_std_SVM": 0.1579,
+    "cv_acc_RF": 0.6905,
+    "cv_acc_std_RF": 0.0982,
+    "cv_acc_KNN": 0.6905,
+    "cv_acc_std_KNN": 0.0982
+  },
+  "KNN": {
+    "latent_dim": 8,
+    "transform_algorithm": "lasso_lars",
+    "k_selector": 10,
+    "k_used": 10,
+    "recon_error": 0.229039,
+    "fused_dim": 24,
+    "cv_acc_SVM": 0.7619,
+    "cv_acc_std_SVM": 0.1579,
+    "cv_acc_RF": 0.6905,
+    "cv_acc_std_RF": 0.0982,
+    "cv_acc_KNN": 0.6905,
+    "cv_acc_std_KNN": 0.0982
+  }
+}

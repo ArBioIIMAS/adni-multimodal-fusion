@@ -1,0 +1,31 @@
+# Dictionary Learning — Resumen de Resultados
+
+## Configuración
+- n_components por modalidad: 10
+- Dimensión fusionada: 30 features
+- Train: 42 sujetos  |  Test: 18 sujetos
+- Clases train: {np.int64(0): np.int64(14), np.int64(1): np.int64(14), np.int64(2): np.int64(14)}
+- Clases test:  {np.int64(0): np.int64(6), np.int64(1): np.int64(6), np.int64(2): np.int64(6)}
+- Semillas: [7, 14, 21, 28, 35]
+- k features evaluados: [5, 10, 15]
+
+## Métricas en Test (media ± std sobre 5 semillas)
+
+### SVM
+- Accuracy:  0.7444 ± 0.0754
+- Precision: 0.7498 ± 0.0763
+- Recall:    0.7444 ± 0.0754
+- F1 macro:  0.7419 ± 0.0760
+
+### RandomForest
+- Accuracy:  0.7000 ± 0.0831
+- Precision: 0.6950 ± 0.0922
+- Recall:    0.7000 ± 0.0831
+- F1 macro:  0.6878 ± 0.0860
+
+### KNN
+- Accuracy:  0.6889 ± 0.0567
+- Precision: 0.6988 ± 0.0593
+- Recall:    0.6889 ± 0.0567
+- F1 macro:  0.6860 ± 0.0580
+

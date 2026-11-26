@@ -1,0 +1,15 @@
+MODELO: KNN | SEMILLA: 28
+GANADOR: KBest_f_classif con k=24
+Mejores Parámetros: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 5, 'model__weights': 'distance', 'selector': SelectKBest(), 'selector__k': 24}
+Métricas Test: Acc=0.7778, Prec=0.8214, Rec=0.7778, F1=0.7643
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.75      1.00      0.86         6
+         DCL       1.00      0.50      0.67         6
+          EA       0.71      0.83      0.77         6
+
+    accuracy                           0.78        18
+   macro avg       0.82      0.78      0.76        18
+weighted avg       0.82      0.78      0.76        18
+ROIs: ['Tortuosidad_amig_der', 'Compacidad_amig_der', 'Volumen_hip_izq', 'Tortuosidad_amig_izq', 'Compacidad_amig_izq', 'Tortuosidad_hip_der', 'Compacidad_hip_der', 'Volumen_amig_izq', 'Volumen_amig_der', 'Volumen_hip_der', 'Tortuosidad_hip_izq', 'Compacidad_hip_izq', 'VolumenN_hip_izq', 'VolumenN_amig_izq', 'VolumenN_amig_der', 'Area_hip_izq', 'Tortuosidad_tal_der', 'Compacidad_tal_der', 'Area_amig_der', 'Area_hip_der', 'Volumen_tal_der', 'VolumenN_hip_der', 'Area_amig_izq', 'VolumenN_tal_der', 'Volumen_tal_izq', 'Tortuosidad_tal_izq', 'Compacidad_tal_izq', 'Area_tal_der', 'Area_tal_izq', 'Soam_hip_der', 'Soam_hip_izq', 'Soam_amig_der', 'Soam_tal_der', 'Soam_tal_izq', 'VolumenN_tal_izq', 'Soam_amig_izq']

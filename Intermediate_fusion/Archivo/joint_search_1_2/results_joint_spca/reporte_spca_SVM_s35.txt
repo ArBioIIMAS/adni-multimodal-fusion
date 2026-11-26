@@ -1,0 +1,6 @@
+MÉTODO: SPCA | MODELO: SVM | SEMILLA: 35
+Mejor repr config: {'latent_dim': 32.0, 'alpha': 1.0}
+Recon error: 0.038749
+Selector ganador: KBest_mutual_info_classif con k=24
+Mejores params clf: {'model__C': 0.1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x771787b468e0>, random_state=35)), 'selector__k': 24}
+Métricas Test: Acc=0.8889, Prec=0.9048, Rec=0.8889, F1=0.8821

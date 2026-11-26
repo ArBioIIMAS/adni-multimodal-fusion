@@ -1,0 +1,6 @@
+MÉTODO: SC | MODELO: SVM | SEMILLA: 7
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.187338
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__C': 1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.9444, Prec=0.9524, Rec=0.9444, F1=0.9441

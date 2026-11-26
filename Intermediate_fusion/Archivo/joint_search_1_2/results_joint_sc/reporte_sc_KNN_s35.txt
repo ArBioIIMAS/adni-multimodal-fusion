@@ -1,0 +1,7 @@
+MÉTODO: SC | MODELO: KNN | SEMILLA: 35
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 0.5}
+Recon error: 0.185938
+Selector ganador: FromModel_RandomForestClassifier con k=12
+Mejores params clf: {'model__leaf_size': 5, 'model__metric': 'euclidean', 'model__n_neighbors': 3, 'model__weights': 'distance', 'selector': SelectFromModel(estimator=RandomForestClassifier(random_state=35),
+                threshold=-inf), 'selector__max_features': 12}
+Métricas Test: Acc=0.6667, Prec=0.6667, Rec=0.6667, F1=0.6667

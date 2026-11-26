@@ -1,0 +1,7 @@
+Model,Train Acc. mean,Train Acc. std,Accuracy mean,Accuracy std,Precision mean,Precision std,Recall mean,Recall std,F1 mean,F1 std,Selector_top,k_top
+SVM,0.8476,0.0319,0.8556,0.0843,0.9054,0.0438,0.8556,0.0843,0.8421,0.0977,KBest_mutual_info_classif,24
+RF,0.8333,0.0238,0.8444,0.0465,0.8463,0.046,0.8444,0.0465,0.844,0.0466,KBest_f_classif,60
+ElasticNet,0.8238,0.0398,0.7,0.0745,0.7018,0.1475,0.7,0.0745,0.6762,0.1057,KBest_mutual_info_classif,36
+MLP,0.819,0.0271,0.7,0.0633,0.7037,0.1388,0.7,0.0633,0.6682,0.0945,KBest_mutual_info_classif,24
+KNN,0.8095,0.0168,0.7444,0.1083,0.7454,0.1093,0.7444,0.1083,0.7423,0.1098,KBest_f_classif,36
+CatBoost,0.8048,0.031,0.8222,0.0248,0.826,0.027,0.8222,0.0248,0.8213,0.0243,KBest_f_classif,60

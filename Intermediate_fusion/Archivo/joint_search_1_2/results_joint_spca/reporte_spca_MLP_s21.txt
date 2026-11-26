@@ -1,0 +1,6 @@
+MÉTODO: SPCA | MODELO: MLP | SEMILLA: 21
+Mejor repr config: {'latent_dim': 8.0, 'alpha': 1.0}
+Recon error: 0.195573
+Selector ganador: KBest_mutual_info_classif con k=12
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.5, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x771787b468e0>, random_state=21)), 'selector__k': 12}
+Métricas Test: Acc=0.8333, Prec=0.8302, Rec=0.8333, F1=0.8279

@@ -1,0 +1,6 @@
+MÉTODO: AE | MODELO: MLP | SEMILLA: 14
+Mejor repr config: {'latent_dim': 32.0}
+Recon error: 0.067981
+Selector ganador: KBest_mutual_info_classif con k=12
+Mejores params clf: {'model__lr': 0.0005, 'model__module__dropout_rate': 0.4, 'model__module__hidden_sizes': [128, 64, 32], 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7547200ee660>, random_state=14)), 'selector__k': 12}
+Métricas Test: Acc=0.8333, Prec=0.8381, Rec=0.8333, F1=0.8322

@@ -1,0 +1,6 @@
+MÉTODO: SC | MODELO: ElasticNet | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'transform_alpha': 1.0}
+Recon error: 0.231199
+Selector ganador: KBest_mutual_info_classif con k=48
+Mejores params clf: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'log_loss', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x771787b468e0>, random_state=14)), 'selector__k': 48}
+Métricas Test: Acc=0.8333, Prec=0.8571, Rec=0.8333, F1=0.8308

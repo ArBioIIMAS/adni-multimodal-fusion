@@ -1,0 +1,20 @@
+MÉTODO: AE | MODELO: CatBoost | SEMILLA: 7
+GANADOR: KBest_mutual_info_classif con k=24
+Repr config: {'latent_dim': 32.0}
+Recon error: 0.071149
+Mejores Parámetros: {'model__depth': 5, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x71eba36aa8e0>, random_state=7)), 'selector__k': 24}
+Métricas Test: Acc=0.9444, Prec=0.9524, Rec=0.9444, F1=0.9441
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.86      1.00      0.92         6
+         DCL       1.00      0.83      0.91         6
+          EA       1.00      1.00      1.00         6
+
+    accuracy                           0.94        18
+   macro avg       0.95      0.94      0.94        18
+weighted avg       0.95      0.94      0.94        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat12', 'DTI_lat9', 'DTI_lat21', 'DTI_lat2', 'DTI_lat25', 'DTI_lat11', 'Morfo_lat19', 'Morfo_lat21', 'DTI_lat20', 'Morfo_lat14', 'DTI_lat22', 'Morfo_lat6', 'DTI_lat31', 'Morfo_lat28', 'Morfo_lat22', 'Meta_lat17', 'Morfo_lat13', 'Meta_lat5', 'DTI_lat4', 'Meta_lat31', 'Morfo_lat8', 'Morfo_lat24', 'DTI_lat10', 'Morfo_lat16', 'Meta_lat24', 'DTI_lat7', 'Morfo_lat26', 'Morfo_lat2', 'DTI_lat17', 'Morfo_lat3', 'DTI_lat29', 'Morfo_lat7', 'Meta_lat18', 'DTI_lat27', 'Meta_lat22', 'Morfo_lat10', 'DTI_lat30', 'DTI_lat1', 'Morfo_lat15', 'Morfo_lat5', 'DTI_lat26', 'Meta_lat16', 'DTI_lat14', 'Morfo_lat11', 'Meta_lat23', 'Meta_lat15', 'Morfo_lat0', 'Meta_lat20', 'Meta_lat25', 'Morfo_lat25', 'Meta_lat6', 'DTI_lat15', 'DTI_lat13', 'Meta_lat7', 'DTI_lat23', 'Meta_lat3', 'Meta_lat26', 'Meta_lat11', 'Meta_lat13', 'Morfo_lat18', 'Morfo_lat29', 'Morfo_lat31', 'Morfo_lat20', 'DTI_lat18', 'Morfo_lat9', 'Meta_lat19', 'Meta_lat10', 'Morfo_lat12', 'Meta_lat12', 'Morfo_lat30', 'DTI_lat3', 'Meta_lat27', 'Meta_lat8', 'Morfo_lat4', 'DTI_lat19', 'DTI_lat16', 'DTI_lat6', 'DTI_lat5', 'DTI_lat0', 'DTI_lat8', 'DTI_lat28', 'DTI_lat24', 'Meta_lat30', 'Meta_lat29', 'Meta_lat4', 'Meta_lat0', 'Meta_lat9', 'Meta_lat14', 'Meta_lat1', 'Meta_lat2', 'Meta_lat28', 'Meta_lat21', 'Morfo_lat1', 'Morfo_lat17', 'Morfo_lat23', 'Morfo_lat27']

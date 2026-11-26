@@ -1,0 +1,20 @@
+MÉTODO: SC | MODELO: ElasticNet | SEMILLA: 21
+GANADOR: KBest_mutual_info_classif con k=24
+Repr config: {'latent_dim': 8, 'transform_algorithm': 'omp', 'transform_alpha': 0.5}
+Recon error: 0.172532
+Mejores Parámetros: {'model__alpha': 0.0001, 'model__l1_ratio': 0.15, 'model__loss': 'log_loss', 'selector': SelectKBest(score_func=functools.partial(<function mutual_info_classif at 0x7e1a576167a0>, random_state=21)), 'selector__k': 24}
+Métricas Test: Acc=0.8889, Prec=0.8968, Rec=0.8889, F1=0.8885
+
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.86      1.00      0.92         6
+         DCL       0.83      0.83      0.83         6
+          EA       1.00      0.83      0.91         6
+
+    accuracy                           0.89        18
+   macro avg       0.90      0.89      0.89        18
+weighted avg       0.90      0.89      0.89        18
+
+ROIs (ordenadas por importancia):
+['DTI_lat4', 'Morfo_lat0', 'DTI_lat1', 'Morfo_lat5', 'Meta_lat7', 'Morfo_lat2', 'DTI_lat0', 'Meta_lat0', 'Morfo_lat7', 'DTI_lat2', 'DTI_lat5', 'DTI_lat3', 'DTI_lat7', 'DTI_lat6', 'Meta_lat2', 'Meta_lat1', 'Meta_lat6', 'Meta_lat5', 'Meta_lat4', 'Meta_lat3', 'Morfo_lat3', 'Morfo_lat1', 'Morfo_lat4', 'Morfo_lat6']

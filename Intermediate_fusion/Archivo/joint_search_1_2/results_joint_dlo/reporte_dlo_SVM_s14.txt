@@ -1,0 +1,6 @@
+MÉTODO: DLO | MODELO: SVM | SEMILLA: 14
+Mejor repr config: {'latent_dim': 8, 'transform_algorithm': 'lasso_lars', 'batch_size': 8}
+Recon error: 0.241519
+Selector ganador: KBest_f_classif con k=12
+Mejores params clf: {'model__C': 1, 'model__gamma': 0.001, 'model__kernel': 'linear', 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.8889, Prec=0.8889, Rec=0.8889, F1=0.8889

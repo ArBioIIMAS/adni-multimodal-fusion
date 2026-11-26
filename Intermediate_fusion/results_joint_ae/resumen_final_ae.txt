@@ -1,0 +1,111 @@
+# AE — Resumen Final
+# Evaluación: media ± std sobre 5 semillas
+
+## RF
+- Test_Acc: 0.9444 ± 0.0393
+- Precision: 0.9508 ± 0.0366
+- Recall: 0.9444 ± 0.0393
+- F1: 0.9442 ± 0.0394
+- Por clase (media ± std):
+    Prec_CN: 0.8857 ± 0.0639
+    Recall_CN: 1.0000 ± 0.0000
+    F1_CN: 0.9385 ± 0.0344
+    Prec_DCL: 0.9667 ± 0.0746
+    Recall_DCL: 0.8666 ± 0.0746
+    F1_DCL: 0.9121 ± 0.0591
+    Prec_EA: 1.0000 ± 0.0000
+    Recall_EA: 0.9667 ± 0.0746
+    F1_EA: 0.9818 ± 0.0407
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+
+## SVM
+- Test_Acc: 0.9444 ± 0.0393
+- Precision: 0.9492 ± 0.0395
+- Recall: 0.9444 ± 0.0393
+- F1: 0.9442 ± 0.0393
+- Por clase (media ± std):
+    Prec_CN: 0.8809 ± 0.0674
+    Recall_CN: 0.9667 ± 0.0746
+    F1_CN: 0.9205 ± 0.0590
+    Prec_DCL: 0.9667 ± 0.0746
+    Recall_DCL: 0.8666 ± 0.0746
+    F1_DCL: 0.9121 ± 0.0591
+    Prec_EA: 1.0000 ± 0.0000
+    Recall_EA: 1.0000 ± 0.0000
+    F1_EA: 1.0000 ± 0.0000
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+
+## CatBoost
+- Test_Acc: 0.8889 ± 0.0556
+- Precision: 0.8972 ± 0.0573
+- Recall: 0.8889 ± 0.0556
+- F1: 0.8869 ± 0.0560
+- Por clase (media ± std):
+    Prec_CN: 0.8000 ± 0.0782
+    Recall_CN: 0.9333 ± 0.0913
+    F1_CN: 0.8615 ± 0.0843
+    Prec_DCL: 0.9200 ± 0.1095
+    Recall_DCL: 0.7333 ± 0.0913
+    F1_DCL: 0.8146 ± 0.0913
+    Prec_EA: 0.9714 ± 0.0639
+    Recall_EA: 1.0000 ± 0.0000
+    F1_EA: 0.9846 ± 0.0344
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+
+## KNN
+- Test_Acc: 0.8555 ± 0.0843
+- Precision: 0.8584 ± 0.0855
+- Recall: 0.8555 ± 0.0843
+- F1: 0.8549 ± 0.0850
+- Por clase (media ± std):
+    Prec_CN: 0.7676 ± 0.1091
+    Recall_CN: 0.8000 ± 0.1826
+    F1_CN: 0.7809 ± 0.1425
+    Prec_DCL: 0.8076 ± 0.1534
+    Recall_DCL: 0.7667 ± 0.0913
+    F1_DCL: 0.7837 ± 0.1142
+    Prec_EA: 1.0000 ± 0.0000
+    Recall_EA: 1.0000 ± 0.0000
+    F1_EA: 1.0000 ± 0.0000
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+
+## ElasticNet
+- Test_Acc: 0.8778 ± 0.0465
+- Precision: 0.8930 ± 0.0451
+- Recall: 0.8778 ± 0.0465
+- F1: 0.8761 ± 0.0472
+- Por clase (media ± std):
+    Prec_CN: 0.7809 ± 0.0610
+    Recall_CN: 0.9333 ± 0.0913
+    F1_CN: 0.8480 ± 0.0553
+    Prec_DCL: 0.9267 ± 0.1011
+    Recall_DCL: 0.7667 ± 0.0913
+    F1_DCL: 0.8358 ± 0.0771
+    Prec_EA: 0.9714 ± 0.0639
+    Recall_EA: 0.9333 ± 0.1491
+    F1_EA: 0.9446 ± 0.0874
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+
+## MLP
+- Test_Acc: 0.8778 ± 0.0724
+- Precision: 0.8875 ± 0.0771
+- Recall: 0.8778 ± 0.0724
+- F1: 0.8768 ± 0.0723
+- Por clase (media ± std):
+    Prec_CN: 0.7862 ± 0.0804
+    Recall_CN: 0.8667 ± 0.1826
+    F1_CN: 0.8195 ± 0.1170
+    Prec_DCL: 0.8762 ± 0.1704
+    Recall_DCL: 0.7667 ± 0.0913
+    F1_DCL: 0.8108 ± 0.1024
+    Prec_EA: 1.0000 ± 0.0000
+    Recall_EA: 1.0000 ± 0.0000
+    F1_EA: 1.0000 ± 0.0000
+- latent_dim más frecuente: 32
+- recon_error medio: 0.069324
+

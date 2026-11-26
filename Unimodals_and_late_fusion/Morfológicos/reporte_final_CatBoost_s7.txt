@@ -1,0 +1,15 @@
+MODELO: CatBoost | SEMILLA: 7
+GANADOR: KBest_f_classif con k=12
+Mejores Parámetros: {'model__depth': 5, 'model__iterations': 1000, 'model__l2_leaf_reg': 1, 'selector': SelectKBest(), 'selector__k': 12}
+Métricas Test: Acc=0.5556, Prec=0.5417, Rec=0.5556, F1=0.5411
+Métricas por clase:
+              precision    recall  f1-score   support
+
+          CN       0.60      0.50      0.55         6
+         DCL       0.40      0.33      0.36         6
+          EA       0.62      0.83      0.71         6
+
+    accuracy                           0.56        18
+   macro avg       0.54      0.56      0.54        18
+weighted avg       0.54      0.56      0.54        18
+ROIs: ['Tortuosidad_amig_der', 'Compacidad_amig_der', 'Volumen_hip_izq', 'Tortuosidad_amig_izq', 'Compacidad_amig_izq', 'Tortuosidad_hip_der', 'Compacidad_hip_der', 'Volumen_amig_izq', 'Volumen_amig_der', 'Volumen_hip_der', 'Tortuosidad_hip_izq', 'Compacidad_hip_izq', 'VolumenN_hip_izq', 'VolumenN_amig_izq', 'VolumenN_amig_der', 'Area_hip_izq', 'Tortuosidad_tal_der', 'Compacidad_tal_der', 'Area_amig_der', 'Area_hip_der', 'Volumen_tal_der', 'VolumenN_hip_der', 'Area_amig_izq', 'VolumenN_tal_der', 'Volumen_tal_izq', 'Tortuosidad_tal_izq', 'Compacidad_tal_izq', 'Area_tal_der', 'Area_tal_izq', 'Soam_hip_der', 'Soam_hip_izq', 'Soam_amig_der', 'Soam_tal_der', 'Soam_tal_izq', 'VolumenN_tal_izq', 'Soam_amig_izq']
