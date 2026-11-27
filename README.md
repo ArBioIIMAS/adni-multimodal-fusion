@@ -16,7 +16,7 @@ We evaluate unimodal baselines alongside three multimodal data integration archi
    * Stratified **6-fold cross-validation** on the training partition for hyperparameter optimization of latent representation models (intermediate fusion).
    * Stratified **6-fold cross-validation** on the training partition for downstream classifier tuning (`ElasticNet`, `KNN`, `SVM`, `Random Forest`, `CatBoost`, and `MLP`).
 3. **Model Interpretability:**
-   * Feature importance and consensus ranking analysis across unimodal and early fusion schemes.
+   * Feature importance analysis across unimodal and early fusion schemes.
 
 ---
 
